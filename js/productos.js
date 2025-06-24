@@ -4,28 +4,28 @@ document.addEventListener('DOMContentLoaded', function () {
         {
             id: 'Funko-01',
             titulo: 'Pop! Mr. Fantastic',
-            imagen: '../../img/producto-1.png',
+            imagen: '/img/producto-1.png',
             descripcion: 'Funko de Mr. Fantastic del grupo de los 4 fantásticos',
             precio: 150,
         },
         {
             id: 'Funko-02',
             titulo: 'Pop! Spider-Man',
-            imagen: '../../img/producto-2.png',
+            imagen: '/img/producto-2.png',
             descripcion: 'Funko de Spider-Man del grupo de los Vengadores',
             precio: 120,
         },
         {
             id: 'Funko-03',
             titulo: 'Pop! Galactus',
-            imagen: '../../img/producto-3.png',
+            imagen: '/img/producto-3.png',
             descripcion: 'Funko de GALACTUS, villano de los 4 fantásticos',
             precio: 150,
         },
         {
             id: 'Funko-04',
             titulo: 'Pop! Wolverine',
-            imagen: '../../img/producto-4.png',
+            imagen: '/img/producto-4.png',
             descripcion: 'Funko de Wolverine, la mejor dupla de DeadPool',
             precio: 140,
         },
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
         {
             id: 'Ropa-01',
             titulo: 'Hoodie',
-            imagen: '../../img/producto-5.png',
+            imagen: '/img/producto-5.png',
             descripcion: 'Hoodie o polera de Funko',
             precio: 200,
         },
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
         {
             id: 'Pack-01',
             titulo: 'Polera + Pop! Flash',
-            imagen: '../../img/producto-6.png',
+            imagen: '/img/producto-6.png',
             descripcion: 'Pack de Polera + Mini Pop! Flash',
             precio: 150,
         },
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
         {
             id: 'Gorra-01',
             titulo: 'Gorra de Funko',
-            imagen: '../../img/producto-7.png',
+            imagen: '/img/producto-7.png',
             descripcion: 'Gorra especial de Funko',
             precio: 100,
         },
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
         {
             id: 'Mochila-01',
             titulo: 'Mochila de Funko',
-            imagen: '../../img/producto-8.png',
+            imagen: '/img/producto-8.png',
             descripcion: 'Mochila especial de Funko',
             precio: 250,
         },
