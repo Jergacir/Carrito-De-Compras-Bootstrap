@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Productos | Carrito de Compras</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/misEstilos.css">
+</head>
+
+<body>
+    <header class="container-fluid">
+        <!--Fila 1-->
+        <div class="row bg-info p-3">
+            <!--Columna 1-->
+            <div class="col-md-3 d-flex align-items-center justify-content-center">
+                <!-- <h1 class="m-0">Tienda Virtual</h1> -->
+                <img class="img-fluid h-75" src="img/logo-funko-celeste.png" alt="Logo de tienda">
+            </div>
+            <!--Columna 2-->
+            <div class="col-md-4 d-flex align-items-center">
+                <nav class="navbar w-100">
+                    <div class="container-fluid">
+                        <form class="d-flex w-100" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+            <!--Columna 3-->
+            <nav class="col-md-5 d-flex align-items-center justify-content-center">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#"><i class="fa-solid fa-house"></i> Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="productos.html"><i class="fa-solid fa-bag-shopping"></i> Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="carrito.html"><i class="fa-solid fa-cart-shopping"></i> Carrito <span
+                                id="numerito">0</span> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-user"></i> Usuario</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container-fluid">
+        <div class="row mt-4">
+            <h3 class="text-primary">Productos</h3>
+        </div>
+        <div class="row justify-content-center">
+            <div id="contenedor-productos" class="row row-cols-1 row-cols-md-4 row-cols-sm-2 g-4 p-3 mt-0">
+                <!--<div class="card h-100 text-center shadow producto">
+                        <img src="img/producto-1.png" class="card-img-top producto-imagen" alt="Pop! Mr. Fantastic">
+                        <div class="card-body border-top producto-detalles">
+                            <h5 class="card-title fw-bold producto-titulo">Pop! Mr. Fantastic</h5>
+                            <p class="card-text producto-descripcion">Funko de Mr. Fantastic del grupo de lo 4
+                                fantásticos</p>
+                            <p class="producto-precio">S/. 150</p>
+                            <button type="button" id="producto-01" class="btn-agregar-carrito btn btn-primary">Agregar a carrito</button>
+                        </div>
+                    </div>-->
+                <!--Más productos-->
+            </div>
+        </div>
+    </main>
+    <footer class="container-fluid bg-primary p-4 d-flex align-items-center justify-content-center">
+        <h5 class="fw-bold m-0">Copyrigth - Página hecha por Jeremy García</h5>
+    </footer>
+
+    <script src="js/productos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

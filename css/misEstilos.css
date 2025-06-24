@@ -1,0 +1,38 @@
+header img{
+    max-height: 7rem;
+}
+
+#numerito{
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.active #numerito{
+    color: #0d6efd;
+}
+
+main{
+    min-height: 85vh;
+}
+
+/*Carrito*/
+
+.carrito-producto{
+    background-color: #e2e2e2;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+
+.carrito-producto-imagen{
+    width: 6rem;
+    height: 6rem;
+}
+
+.carrito-producto-titulo{
+    width: 165px;
+}
+
+.botones-cantidad button{
+   font-size: 10px;
+}
